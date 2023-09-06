@@ -16,5 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
         navList.classList.remove("active");
       }
     });
+    
+    // Prevent clicks inside the menu from closing it
+    navList.addEventListener("click", function (event) {
+      event.stopPropagation();
+    });
   });
   
