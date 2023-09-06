@@ -16,13 +16,19 @@
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/resume.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/nav.css">
   </head>
   <body>
     <header>
       <nav>
         <div class="left">Aditya's Portfolio</div>
         <div class="right">
-          <ul>
+          <div class="hamburger" id="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul id="nav-list">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -43,14 +49,12 @@
           <p>Portfolio Website.</p>
           <p>
             I am,
-            <span style="color: rgb(255, 123, 0); font-weight: bold"
-              >ADITYA VIKRAM</span
-            >
+            <span style="color: rgb(255, 123, 0); font-weight: bold">ADITYA VIKRAM</span>
           </p>
           <p>a passionate</p>
           <span id="element"></span>
         </div>
-      </section>
+      </section>      
       <hr />
       <section class="secondsection">
         <div class="skills">MY TOOLBOX</div>
@@ -100,36 +104,56 @@
           <div class="project-section">
             <h3>Website Clone Projects</h3>
             <div class="project">
-              <a href="https://github.com/ADIIIIXD/Netflix_clone" target="_blank">
-                <img src="img/netflix.png" alt="Project 1" style="margin-bottom: 20px;"/>
+              <a
+                href="https://github.com/ADIIIIXD/Netflix_clone"
+                target="_blank"
+              >
+                <img
+                  src="img/netflix.png"
+                  alt="Project 1"
+                  style="margin-bottom: 20px"
+                />
               </a>
               <p>Clone of Netflix.com</p>
             </div>
             <div class="project">
-              <a href="https://github.com/ADIIIIXD/microsoft_clone" target="_blank">
+              <a
+                href="https://github.com/ADIIIIXD/microsoft_clone"
+                target="_blank"
+              >
                 <img src="img/microsoft.png" alt="Project 2" />
               </a>
               <p>Clone of Microsoft.com</p>
             </div>
             <div class="project">
-              <a href="https://github.com/ADIIIIXD/amazon-clone" target="_blank">
-                <img src="img/amazon.png" alt="Project 3" style="width: 80px; margin-bottom: 10px;"/>
+              <a
+                href="https://github.com/ADIIIIXD/amazon-clone"
+                target="_blank"
+              >
+                <img
+                  src="img/amazon.png"
+                  alt="Project 3"
+                  style="width: 80px; margin-bottom: 10px"
+                />
               </a>
               <p>Clone of Amazon.com</p>
             </div>
           </div>
-          <hr style="width: 60vw;">
+          <hr style="width: 60vw" />
           <!-- Second Section: Short Description Projects -->
           <div class="project-section2">
-            <h3 style="margin-top: 35px;">JavaScript Projects</h3>
-            <div class="project" style="margin-top: 40px;">
+            <h3 style="margin-top: 35px">JavaScript Projects</h3>
+            <div class="project" style="margin-top: 40px">
               <a href="https://github.com/ADIIIIXD/stopwatch" target="_blank">
                 <img src="img/stopwatch.png" alt="Project 4" />
               </a>
               <p>Stopwatch</p>
             </div>
             <div class="project">
-              <a href="https://github.com/ADIIIIXD/rock-paper-scissor" target="_blank">
+              <a
+                href="https://github.com/ADIIIIXD/rock-paper-scissor"
+                target="_blank"
+              >
                 <img src="img/rps.png" alt="Project 5" />
               </a>
               <p>Rock, Papaer, Scissors</p>
@@ -195,11 +219,12 @@
           "<i>Front-End Developer.</i>",
           "<i>Video Editor.</i>",
           "<i>Python Programmer.</i>",
-          "<i>Learner.</i>"
+          "<i>Learner.</i>",
         ],
         typeSpeed: 50,
       });
     </script>
     <script src="script.js"></script>
+    <script src="nav.js"></script>
   </body>
 </html>
