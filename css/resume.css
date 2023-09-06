@@ -1,0 +1,42 @@
+/* Style for the resume section */
+.resume-section {
+  background-color: #222222;
+  padding: 50px;
+  text-align: center;
+}
+
+.resume-content {
+  max-width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.resume-content h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(255, 123, 0);
+  margin-bottom: 20px;
+}
+
+.resume-content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style for the download button */
+.resume-download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff7b00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.resume-download-button:hover {
+  background-color: #e55c00;
+}

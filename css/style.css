@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222222;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.left {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0px 20px;
+  list-style: none;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #e27d60;
+  cursor: pointer;
+}
+
+@keyframes rgbShadow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 1);
+  }
+  25% {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 1);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 1);
+  }
+  75% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 1);
+  }
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px auto;
+  margin-top: 50px;
+  width: 80vw;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  animation: rgbShadow 10s linear infinite; /* Adjust the duration as needed */
+}
+
+.leftsection {
+  width: 40%;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin: auto 0px;
+}
+
+#name {
+  font-weight: bold;
+  color: rgb(255, 123, 0);
+}
+
+#element {
+  color: rgb(255, 123, 0);
+}
+
+.rightsection img {
+  width: 80%;
+}
+
+hr {
+  width: 90vw;
+  color: rgb(255, 123, 0);
+  margin: auto;
+  margin-top: 70px;
+  border: 1px solid #e27d60;
+}
+
+
+.skills {
+  color: rgb(255, 123, 0);
+  margin-top: 50px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.icon-container {
+  width: 90vw;
+  height: 20vh;
+  background-color: #222222;
+  border: 2px solid #e27d60;
+  border-radius: 10px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-container img {
+  width: 5rem;
+}
+
+#css {
+  width: 3.5rem;
+}
+
+#js {
+    width: 5.5rem;
+}

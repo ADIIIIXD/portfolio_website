@@ -1,0 +1,81 @@
+/* Style for the projects section */
+.projects-section {
+  background-color: #222222;
+  padding: 50px;
+  text-align: center;
+}
+
+.projects-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.projects-content h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(255, 123, 0);
+  margin-bottom: 30px;
+}
+
+/* Style for project sections */
+.project-section {
+  margin-bottom: 50px;
+}
+
+.project-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 123, 0);
+  margin-bottom: 20px;
+}
+
+.project-section2 {
+  text-align: center;
+}
+
+.project-section2 h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 123, 0);
+  margin-bottom: 20px;
+}
+
+.project-section2 .project img{
+  max-width: 80px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+/* Style for individual projects */
+.project {
+  display: inline-block;
+  margin: 0 60px;
+  text-align: center;
+}
+
+.project a {
+  text-decoration: none;
+  color: rgb(255, 123, 0);
+  transition: transform 0.3s;
+}
+
+.project a:hover {
+  transform: translateY(-5px);
+}
+
+.project img {
+  max-width: 150px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+  border-color: #ff7b00;
+}
+
+.project p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
